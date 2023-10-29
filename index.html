@@ -7,23 +7,23 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <script src="angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
-    <title>PRONT END PERTEMUAN 10</title>
+    <title>FRONT END PERTEMUAN 10</title>
 </head>
-
-
 
 <body>
     
     <section class="team"> 
         <div class="center"> <!--JUDUL-->
-            <h1>Anggota Kelompok</h1>
+            <h1>Our<span>Team</span></h1>
         </div>
 
-        <div class="team-content">
+        <div class="team-content" ng-app="" ng-init="N='Daflah Tsany Gusra' ; NI='535220177' ; 
+        N1='Ravelino Radissey' ; NI1='535220181' ; N2='Kenneth Marlon Tan' ; NI2='535220183' ;
+        N3='Gerry Dominiki S' ; NI3='535220225' ; N4='Wenly Rusli' ; NI4='535220258'">
             <div class="box">
                 <img src="Image/02.png"> <!--Daflah Tsany Gusra-->
-                <h3>Daflah Tsany Gusra</h3>
-                <h5>535220177</h5>
+                <h3>{{N}}</h3>
+                <h5>{{NI}}</h5>
                 <div class="icons">
                     <a href="#"> <i class="ri-arrow-right-double-fill"></i> </a>
                 </div>
@@ -31,8 +31,8 @@
 
             <div class="box">
                 <img src="Image/01.png"> <!--Ravelino Radissey-->
-                <h3>Ravelino Radissey</h3>
-                <h5>535220181</h5>
+                <h3>{{N1}}</h3>
+                <h5>{{NI1}}</h5>
                 <div class="icons">
                     <a href="#"> <i class="ri-arrow-right-double-fill"></i> </a>
                 </div>
@@ -40,8 +40,8 @@
 
             <div class="box">
                 <img src="Image/05.jpeg"> <!--Kenneth Marlon Tan-->
-                <h3>Kenneth Marlon Tan</h3>
-                <h5>535220183</h5>
+                <h3>{{N2}}</h3>
+                <h5>{{NI2}}</h5>
                 <div class="icons">
                     <a href="#"> <i class="ri-arrow-right-double-fill"></i> </a>
                 </div>
@@ -49,8 +49,8 @@
 
             <div class="box">
                 <img src="Image/06.jpeg" > <!--Gerry Dominiki Sinaga-->
-                <h3>Gerry Dominiki Sinaga</h3>
-                <h5>535220225</h5>
+                <h3>{{N3}}</h3>
+                <h5>{{NI3}}</h5>
                 <div class="icons">
                     <a href="#"> <i class="ri-arrow-right-double-fill"></i> </a>
                 </div>
@@ -58,8 +58,8 @@
 
             <div class="box">
                 <img src="Image/03.jpeg"> <!--Wenly Rusli-->
-                <h3>Wenly Rusli</h3>
-                <h5>535220258</h5>
+                <h3>{{N4}}</h3>
+                <h5>{{NI4}}</h5>
                 <div class="icons">
                     <a href="#"> <i class="ri-arrow-right-double-fill"></i> </a>
                 </div>
